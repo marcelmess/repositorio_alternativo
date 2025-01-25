@@ -44,7 +44,6 @@ def limpar_último():
     transformador.pop()
     resultado= "".join(transformador)
     transformador=[]
-    print(resultado)
     valor_texto.set(resultado)
 
 def calcular():
