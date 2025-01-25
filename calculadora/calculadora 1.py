@@ -65,6 +65,7 @@ keyboard.on_press_key("l", lambda event: limpar_último(), suppress=True)
 
 botão_resultado= Button(frame_corpo, command= calcular, text="=", width=28, height=5, bg=cor2, fg=corbranca)
 botão_resultado.place(x=205,y=341)
+keyboard.on_press_key("enter", lambda event: calcular(), suppress=True)
 
 #operadores
 botão_limpar= Button(frame_corpo, command= limpar, text="Limpar", width=28, height=5, bg=cor2, fg=corbranca)
